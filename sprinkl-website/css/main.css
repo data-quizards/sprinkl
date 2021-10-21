@@ -1,0 +1,200 @@
+
+@font-face {
+  font-family: CoconReg;
+  src: url(../font/Cocon-RegularTR.ttf);
+}
+
+html {
+  scroll-behavior: smooth; }
+.first-page{
+  background: url("../img/wheat-farm.jpg") no-repeat center center;
+}
+.app-page{
+  background: url("../img/background1.jpg") no-repeat center center;
+}
+#intro {
+  background-size: cover; 
+}
+.first-page .container{
+    margin-top:175px;
+}
+.here-is-how{
+  padding: 70px 0 0 456px;
+}
+.here-is-how a{
+  display: block;
+  width: 170px;
+}
+.top-nav-collapse {
+  background-color: #3949ab !important; }
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important; }
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3949ab !important; } }
+
+#intro .h6 {
+  font-weight: 300;
+  line-height: 1.7; }
+
+.site-bg-img {
+  height: 1000px;
+  min-height: 480px;
+  max-height: 100vh; }
+
+.first-page.hm-gradient .site-bg-img {
+    /* background: rgba(42, 27, 161, 0.7); */
+    background: linear-gradient( 45deg, rgb(33 152 237 / 65%), rgb(249 249 249 / 0%) 100%);
+}
+
+.app-page.hm-gradient .site-bg-img {
+  background: rgba(42, 27, 161, 0.7);
+  background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%); 
+}
+
+@media (max-width: 450px) {
+  .margins {
+    margin-right: 1rem;
+    margin-left: 1rem; } }
+.main-content{
+  max-width: 100%;
+}
+
+.logo-container,
+.logo-container a{
+  display: block !important;
+}
+
+.logo-container a h1{
+  font-family: CoconReg;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#intro h1{
+  font-size: 40px;
+}
+#intro .h6{
+  font-size: 20px;
+  font-weight: 400;
+}
+.video-player-div {
+  padding-left: 50px;
+}
+.video-player-div img{
+  height: 300px;
+  border-radius: 10px;
+}
+
+.left-options h2{
+  font-size: 44px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.select-place .dropdowns.select-place-dd button{
+  width: 400px;
+}
+
+.dropdowns.latitude,
+.dropdowns.longitude {
+  display: flex;
+}
+
+.dropdowns.latitude>div,
+.dropdowns.longitude>div {
+  position: relative;
+}
+
+.dropdowns button{
+  width: 200px;
+  font-size: 18px;
+}
+
+.start-analysis,
+#switch-place-button,
+#switch-co-ordinates
+{
+  width: 411px;
+  font-size: 18px;
+}
+.container .select-location{
+  height:540px;
+}
+.app-page .left-options, 
+.app-page .right-options
+{
+  border: solid white;
+
+}
+.app-page .left-options{
+  border-width: 1px;
+  padding: 50px 70px;
+}
+.app-page .right-options{
+    border-width: 1px 1px 1px 0;
+}
+.selected-area{
+  height: 100%;
+  width: 100%;
+}
+
+.right-options .selected-area img{
+  width: 100%;
+}
+.selected-placeholder .fa-map-marker{
+  font-size: 300px;
+  color: white;
+  position: absolute;
+  top: 80px;
+  left: 195px;
+}
+.selected-placeholder h2{
+  color: white;
+  position: absolute;
+  top: 400px;
+  left: 110px;
+}
+.container.ndmi{
+  position: relative;
+} 
+.container.ndmi p b{
+  color: #ff4800c9;
+}
+.time-series img{
+  height: 300px;
+  width: 300px;
+  display: block;
+}
+.img-div{
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.forecast.container p{
+  margin-top: 15px;
+}
+.ndmi i.next-button{
+  position: absolute;
+  bottom: 70px;
+  right: -250px;
+  height: 30px;
+  width: 30px;
+  color: dimgray;
+  cursor: pointer;
+}
+
+.here-is-how{
+  font-size: 15px;
+}
+
+
+
+
+
+.dn{
+  display:none;
+}
+
